@@ -1,4 +1,4 @@
-# 🧠 Maestro
+# 🧠 Exam Study Helper
 
 An AI-powered exam prep assistant built for KIIT University students, using LLaMA 3, LangChain, and ChromaDB — powered entirely offline with Retrieval-Augmented Generation (RAG).
 
@@ -29,3 +29,4 @@ ollama run llama3
 
 # Then run the bot
 python main.py
+

@@ -1,0 +1,1675 @@
+[
+  {
+    "year": 2018,
+    "exam_id": "2018_Autumn_End_Semester_CS-3028",
+    "semester": "Autumn End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3028",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": 60,
+    "exam_duration_hours": 3.0,
+    "questions": [
+      {
+        "question_section": "General",
+        "question_number": "1",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "What is AI? Explain four approaches of AI.",
+            "marks": 20,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "What do you mean by acting rationally? What is a rational agent?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "c",
+            "text": "Briefly explain any four state-of-the-art applications of Al.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "d",
+            "text": "Write how a basic agent can be converted to an autonomous agent.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "e",
+            "text": "Explain the capabilities a system should posses to qualify for Total Turing Test.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "f",
+            "text": "What is the difference between uninformed and informed search strategies? List at least three search strategies from each.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "g",
+            "text": "Are reflex actions (e.g. flinching from a hot stove) rational? Are they intelligent?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "h",
+            "text": "What is a vacuum cleaner agent? Draw state space diagram of a very basic vacuum cleaner with just two adjacent square locations: (A & B) and three actions : (moving right (R), moving left (L) and sucking the dirt in one go (S))",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) General: Question 1: (a) What is AI? Explain four approaches of AI. (b) What do you mean by acting rationally? What is a rational agent? (c) Briefly explain any four state-of-the-art applications of Al. (d) Write how a basic agent can be converted to an autonomous agent. (e) Explain the capabilities a system should posses to qualify for Total Turing Test. (f) What is the difference between uninformed and informed search strategies? List at least three search strategies from each. (g) Are reflex actions (e.g. flinching from a hot stove) rational? Are they intelligent? (h) What is a vacuum cleaner agent? Draw state space diagram of a very basic vacuum cleaner with just two adjacent square locations: (A & B) and three actions : (moving right (R), moving left (L) and sucking the dirt in one go (S))"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "1a",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Explain incremental formulation and complete formulation of 8-Queen problem.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 1a: Explain incremental formulation and complete formulation of 8-Queen problem."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "1b",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Briefly explain cooperative multi-agent and competitive multi-agent with appropriate example in each case.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 1b: Briefly explain cooperative multi-agent and competitive multi-agent with appropriate example in each case."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "2",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Define task environment. How is it specified? Give the PEAS description (in tabular fashion) for the following agents: i. Medical diagnosis ii. Automated taxi driver",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Elaborate six properties of task environment. Give example in each case. In a tabular fashion, mention these six properties of task environment in each of the following agent types: i. Image analysis ii. Chess with clock",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 2: (a) Define task environment. How is it specified? Give the PEAS description (in tabular fashion) for the following agents: i. Medical diagnosis ii. Automated taxi driver (b) Elaborate six properties of task environment. Give example in each case. In a tabular fashion, mention these six properties of task environment in each of the following agent types: i. Image analysis ii. Chess with clock"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "3",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain & draw the schematic diagrams of i) a Model- based reflex agent, ii) a Goal-based agent, and iii) a Utility-based agent. Also write down the corresponding agent program for any one of these.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "What are the differences between a node and a state? Mention the components of a node with a suitable example.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 3: (a) Explain & draw the schematic diagrams of i) a Model- based reflex agent, ii) a Goal-based agent, and iii) a Utility-based agent. Also write down the corresponding agent program for any one of these. (b) What are the differences between a node and a state? Mention the components of a node with a suitable example."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "4",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "What is a learning agent? Draw its schematic model and explain its four conceptual components with a_ suitable example.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Compare between an omniscient agent and a rational agent. Explain a table-driven agent with an example. Give reasons for its failure.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 4: (a) What is a learning agent? Draw its schematic model and explain its four conceptual components with a_ suitable example. (b) Compare between an omniscient agent and a rational agent. Explain a table-driven agent with an example. Give reasons for its failure."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "5",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain the five components of Problem formulation. Write the agent program for a Problem-Solving-agent.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain with suitable example and diagrams, the principles of operation of i) breadth-first search (BFS) and ii) depth-first search (DFS). State the positive and negative aspects of these two search techniques.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 5: (a) Explain the five components of Problem formulation. Write the agent program for a Problem-Solving-agent. (b) Explain with suitable example and diagrams, the principles of operation of i) breadth-first search (BFS) and ii) depth-first search (DFS). State the positive and negative aspects of these two search techniques."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "6",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "State the limitations of Depth-limited search (DLS) strategy and how these limitations are taken care of through Iterative deepening depth-first search (IDS).",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "What are the four ways to evaluate an algorithm’s performance? Indicate in a tabular fashion these four criteria for BFS, UCS, DFS, DLS, IDS and BDS.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 6: (a) State the limitations of Depth-limited search (DLS) strategy and how these limitations are taken care of through Iterative deepening depth-first search (IDS). (b) What are the four ways to evaluate an algorithm’s performance? Indicate in a tabular fashion these four criteria for BFS, UCS, DFS, DLS, IDS and BDS."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "7",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain A* algorithm with a suitable example. State for this algorithm the conditions for optimality.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain Hill-climbing search. On which factors its success depends. What is its strong limitation? Name two local search algorithms where such limitation is not there.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 7: (a) Explain A* algorithm with a suitable example. State for this algorithm the conditions for optimality. (b) Explain Hill-climbing search. On which factors its success depends. What is its strong limitation? Name two local search algorithms where such limitation is not there."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "8",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Constraint satisfaction problem",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Tree search and graph search",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "c",
+            "text": "Min-Max search algorithm",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "d",
+            "text": "Planning",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2018 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 8: (a) Constraint satisfaction problem (b) Tree search and graph search (c) Min-Max search algorithm (d) Planning"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "exam_id": "2019_Autumn_End_Semester_CS-3028",
+    "semester": "Autumn End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3028",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": 60,
+    "exam_duration_hours": 3.0,
+    "questions": [
+      {
+        "question_section": "SECTION-A",
+        "question_number": "1",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Define deterministic and stochastic environment type.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Identify agent types in following cases i. Chatbot ii. Driverless Car",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "c",
+            "text": "Find which search is better among BFS and DFS.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "d",
+            "text": "Identify three factors on which the rationality of an agent depends upon.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "e",
+            "text": "“All employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL).",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "f",
+            "text": "What are the disadvantages of hill climbing algorithm?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "g",
+            "text": "Define Constraint Satisfaction Problem (CSP).",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "h",
+            "text": "Define game theory approach in context of AI. he P means “It is hot”, Q means “It is humid”, R means “It is raining” then show the output for = (PAQ)>R",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "j",
+            "text": "What is FOPL stands for and explain its role in Artificial Intelligence?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-A: Question 1: (a) Define deterministic and stochastic environment type. (b) Identify agent types in following cases i. Chatbot ii. Driverless Car (c) Find which search is better among BFS and DFS. (d) Identify three factors on which the rationality of an agent depends upon. (e) “All employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL). (f) What are the disadvantages of hill climbing algorithm? (g) Define Constraint Satisfaction Problem (CSP). (h) Define game theory approach in context of AI. he P means “It is hot”, Q means “It is humid”, R means “It is raining” then show the output for = (PAQ)>R (j) What is FOPL stands for and explain its role in Artificial Intelligence?"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "2",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain vacuum world state space graph with specifying of state, action, goaltest and pathcost. We assume that it can move left and right. If there are dirt then it will suck the dirt.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain Map Coloring Problem. Where can constraint satisfaction problems be utilized in the real world situations?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 2: (a) Explain vacuum world state space graph with specifying of state, action, goaltest and pathcost. We assume that it can move left and right. If there are dirt then it will suck the dirt. (b) Explain Map Coloring Problem. Where can constraint satisfaction problems be utilized in the real world situations?"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "3",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Mention the PEAS measure for a medical diagnosis system. How AI can help to improve the system —— performance?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Write down significance of planning and problem solving in context of AI related problem",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 3: (a) Mention the PEAS measure for a medical diagnosis system. How AI can help to improve the system —— performance? (b) Write down significance of planning and problem solving in context of AI related problem"
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "4",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Define state space graph. How state space graph can solve using water jug problem where two container consisting of 4L and 3L water? Neither has any measuring markers on it. There is a pump that can be used to fill the jugs with water. How can you get exactly 2 liters of water into 4-litre jug?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain propositional logic and first order predicate logic with an example for each.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 4: (a) Define state space graph. How state space graph can solve using water jug problem where two container consisting of 4L and 3L water? Neither has any measuring markers on it. There is a pump that can be used to fill the jugs with water. How can you get exactly 2 liters of water into 4-litre jug? (b) Explain propositional logic and first order predicate logic with an example for each."
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "5",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Write the algorithm for breadth first search (BFS) and solve the following graph using BFS search technique.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain totally ordered planning and partially ordered planning.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 5: (a) Write the algorithm for breadth first search (BFS) and solve the following graph using BFS search technique. (b) Explain totally ordered planning and partially ordered planning."
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "6",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain Depth Limited Search with a neat diagram. How this search is better than DFS?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Compare the uniformed search and informed search and justify which one is better.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 6: (a) Explain Depth Limited Search with a neat diagram. How this search is better than DFS? (b) Compare the uniformed search and informed search and justify which one is better."
+      },
+      {
+        "question_section": "SECTION-D",
+        "question_number": "7",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Represent the below sentences in First Order Predicate Logic (FOPL): i. Mr. X have a dog. ii. Mr. X owns a house. iii. Mr. Anil does not belong a house iv. No house being a human being",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Compare forward chaining and backward chaining.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-D: Question 7: (a) Represent the below sentences in First Order Predicate Logic (FOPL): i. Mr. X have a dog. ii. Mr. X owns a house. iii. Mr. Anil does not belong a house iv. No house being a human being (b) Compare forward chaining and backward chaining."
+      },
+      {
+        "question_section": "SECTION-D",
+        "question_number": "8",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "To solve a Tic Toc problem which agent model will be preferable? Explain the model with a neat diagram.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Find the value of P,Q and R where P,Q and R have different single digit positive value. Write down the variables, constraint for following problem to solve crypto arithmetic problem. PQR + PRQ —— = QRP",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-D: Question 8: (a) To solve a Tic Toc problem which agent model will be preferable? Explain the model with a neat diagram. (b) Find the value of P,Q and R where P,Q and R have different single digit positive value. Write down the variables, constraint for following problem to solve crypto arithmetic problem. PQR + PRQ —— = QRP"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "exam_id": "2019_Autumn_End_Semester_CS-3028",
+    "semester": "Autumn End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3028",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": 60,
+    "exam_duration_hours": 3.0,
+    "questions": [
+      {
+        "question_section": "SECTION-A",
+        "question_number": "1",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "State the four categories based on which AI applications are implemented.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "State factors on which rational agents depend.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "c",
+            "text": "What are the two different kinds of steps that we can take in constructing a plan?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "d",
+            "text": "Define percept and percept sequence for a robotic cleaning system.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "e",
+            "text": "Define FOPL & its role in NLP.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "f",
+            "text": "Define observable and partially observable environment with one example for each.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "g",
+            "text": "Write two real life application of Constraint satisfaction Problem.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "h",
+            "text": "Define game theory approach in context of Al.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "i",
+            "text": "Define knowledge representation in AI.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "g",
+            "text": "“All “employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL).",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-A: Question 1: (a) State the four categories based on which AI applications are implemented. (b) State factors on which rational agents depend. (c) What are the two different kinds of steps that we can take in constructing a plan? (d) Define percept and percept sequence for a robotic cleaning system. (e) Define FOPL & its role in NLP. (f) Define observable and partially observable environment with one example for each. (g) Write two real life application of Constraint satisfaction Problem. (h) Define game theory approach in context of Al. (i) Define knowledge representation in AI. (g) “All “employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL)."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "2",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain the 8 puzzle problem and define the state, action, goaltest and pathcost for following problem.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Define the following problem using a graph. We can use RED, GREEN or BLUE color but the adjacent regions must have the different colors. Use backtracking method to solve the problems",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 2: (a) Explain the 8 puzzle problem and define the state, action, goaltest and pathcost for following problem. (b) Define the following problem using a graph. We can use RED, GREEN or BLUE color but the adjacent regions must have the different colors. Use backtracking method to solve the problems"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "3",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Write the algorithm for breadth first search (BFS) and solve the following graph using BFS search technique.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain propositional logic and first order predicate logic with an example for each.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-B: Question 3: (a) Write the algorithm for breadth first search (BFS) and solve the following graph using BFS search technique. (b) Explain propositional logic and first order predicate logic with an example for each."
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "4",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Define state space graph. How state space graph can solve using water jug problem where two container consisting of 4L and 3L water? Neither has any measuring markers on it. There is a pump that can be used to fill the jugs with water. How can you get exactly 2 liters of water into 4-litre Jug?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Compare planning and problem solving in context of AI related problem.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 4: (a) Define state space graph. How state space graph can solve using water jug problem where two container consisting of 4L and 3L water? Neither has any measuring markers on it. There is a pump that can be used to fill the jugs with water. How can you get exactly 2 liters of water into 4-litre Jug? (b) Compare planning and problem solving in context of AI related problem."
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "5",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Explain .briefly the performance measure, environment, actuators, and sensors of the following task: i) Part Picking Robot ii) Smart Garbage Bin Management",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Explain totally ordered planning and partially ordered planning.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 5: (a) Explain .briefly the performance measure, environment, actuators, and sensors of the following task: i) Part Picking Robot ii) Smart Garbage Bin Management (b) Explain totally ordered planning and partially ordered planning."
+      },
+      {
+        "question_section": "SECTION-C",
+        "question_number": "6",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Write pseudo code hill climbing algorithm and explain how local maxima problem can be resolved?",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Compare Blind search and Heuristic search technique.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-C: Question 6: (a) Write pseudo code hill climbing algorithm and explain how local maxima problem can be resolved? (b) Compare Blind search and Heuristic search technique."
+      },
+      {
+        "question_section": "SECTION-D",
+        "question_number": "7",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "To solve an automated vacuum cleaner problem which agent model will be preferable? Explain the model with a neat diagram.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Differentiate forward chaining and backward chaining.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-D: Question 7: (a) To solve an automated vacuum cleaner problem which agent model will be preferable? Explain the model with a neat diagram. (b) Differentiate forward chaining and backward chaining."
+      },
+      {
+        "question_section": "SECTION-D",
+        "question_number": "8",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Represent the below sentences in First Order Predicate Logic (FOPL): i. Every student likes Mr. X. ii. All purple mushrooms are poisonous. iii. | Every person is mortal. Mr. X is a person.",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Find the value of all the characters where each character represent single digit positive value. Write down the variables, constraint for following problem to solve crypto arithmetic problem. TWO + TWO FOUR",
+            "marks": 4,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2019 Autumn End Semester Artificial Intelligence (CS-3028) SECTION-D: Question 8: (a) Represent the below sentences in First Order Predicate Logic (FOPL): i. Every student likes Mr. X. ii. All purple mushrooms are poisonous. iii. | Every person is mortal. Mr. X is a person. (b) Find the value of all the characters where each character represent single digit positive value. Write down the variables, constraint for following problem to solve crypto arithmetic problem. TWO + TWO FOUR"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "exam_id": "2021_Spring_End_Semester_CS-3011",
+    "semester": "Spring End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3011",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": 50,
+    "exam_duration_hours": 2.0,
+    "questions": [
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:1",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "SAT | What are four approaches of Artificial CO1 Intelligence (AI)? Which one of these | approaches is preferred most and why?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | Out of four approaches of AI, why is CO1 Rational agent approach more justifiable than remaining three approaches?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | What is the other name of Turing Test COo1 approach? Which six capabilities should be possessed by a system to qualify for Turing Test?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | State at least five state of the art COo1 | applications of AI.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:1: SAT | What are four approaches of Artificial CO1 Intelligence (AI)? Which one of these | approaches is preferred most and why? SAT | Out of four approaches of AI, why is CO1 Rational agent approach more justifiable than remaining three approaches? SAT | What is the other name of Turing Test COo1 approach? Which six capabilities should be possessed by a system to qualify for Turing Test? SAT | State at least five state of the art COo1 | applications of AI."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:2",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "SAT | State briefly about agent function, agent CO2 program, rational agent and performance measure.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | Differentiate between rationality and CO2 omniscience. Which additional factors should be associated with a basic novice agent to become an autonomous rational agent?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | Differentiate between a competitive CO2 multiagent and a cooperative multiagent through a suitable example.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT | Distinguish between environment class C02 and environment generator.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:2: SAT | State briefly about agent function, agent CO2 program, rational agent and performance measure. SAT | Differentiate between rationality and CO2 omniscience. Which additional factors should be associated with a basic novice agent to become an autonomous rational agent? SAT | Differentiate between a competitive CO2 multiagent and a cooperative multiagent through a suitable example. SAT | Distinguish between environment class C02 and environment generator."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:3",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "SAT | Differentiate between two types of search: CO3 uninformed search and informed search. Mention the names of at least three search strategies for each type of search.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT What are the five components of problem formulation? What are the input and output of any problem-solving agent algorithm, in general?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT Distinguish between: i) State space and search tree ii) State and node.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT Indicate both heuristic values (h1 = no. of misplaced tiles and h2 = Manhattan distance) given the following initial state and final state of 8-puzzle problem: (Only give the values. No calculation needs to be shown.) [2 ]e[s | ‘fe[e] Ls [es | e{ [-| Bae rte ]e| Initial State Final State CO3",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT State three issues of Hill Climbing local search. Suggest briefly the solution to tackle each of these issues.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT What is local search? Name four algorithms (including optimization) under local search.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT If an 8-queens problem is to be solved using GA, then the corresponding fitness function to be maximized is “No. of nonattacking queen pairs”. When the final solution will be achieved, this fitness function will have the maximum value. Then what is this maximum value? (Only write the answer. No calculation needs to be shown.)",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "SAT Name at least three variants of Hill climbing approach?",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ Which of the followings is an example of global constraint? A. k-consistent B. Alldiff C.x<o D. x+y >=5 CO5",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Adversarial search problems use A. Competitive Environment B. Cooperative Environment C. Neither Competitive nor Cooperative Environment D. Both Competitive and Cooperative Environment CO5",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "In alpha-beta pruning, alpha is the A. the root node B. minimum value found so far C. leaf node CO5 D. maximum value found so far",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | Consider a problem of job-shop scheduling CO5 in a car manufacturing factory. What type of problem is this? A. Search Problem B. Backtrack Problem Cc. CSP D Planning Problem",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:3: SAT | Differentiate between two types of search: CO3 uninformed search and informed search. Mention the names of at least three search strategies for each type of search. SAT What are the five components of problem formulation? What are the input and output of any problem-solving agent algorithm, in general? SAT Distinguish between: i) State space and search tree ii) State and node. SAT Indicate both heuristic values (h1 = no. of misplaced tiles and h2 = Manhattan distance) given the following initial state and final state of 8-puzzle problem: (Only give the values. No calculation needs to be shown.) [2 ]e[s | ‘fe[e] Ls [es | e{ [-| Bae rte ]e| Initial State Final State CO3 SAT State three issues of Hill Climbing local search. Suggest briefly the solution to tackle each of these issues. SAT What is local search? Name four algorithms (including optimization) under local search. SAT If an 8-queens problem is to be solved using GA, then the corresponding fitness function to be maximized is “No. of nonattacking queen pairs”. When the final solution will be achieved, this fitness function will have the maximum value. Then what is this maximum value? (Only write the answer. No calculation needs to be shown.) SAT Name at least three variants of Hill climbing approach? MCQ Which of the followings is an example of global constraint? A. k-consistent B. Alldiff C.x<o D. x+y >=5 CO5 Adversarial search problems use A. Competitive Environment B. Cooperative Environment C. Neither Competitive nor Cooperative Environment D. Both Competitive and Cooperative Environment CO5 In alpha-beta pruning, alpha is the A. the root node B. minimum value found so far C. leaf node CO5 D. maximum value found so far MCQ | Consider a problem of job-shop scheduling CO5 in a car manufacturing factory. What type of problem is this? A. Search Problem B. Backtrack Problem Cc. CSP D Planning Problem"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:6",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "MCQ | Wumpus World is a best example of CO6 A. Adversarial search B. Reasoning with knowledge C. Constraint satisfaction problem D. Searching problem",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | Which algorithm will work backward from CO6 the goal to solve a problem? A. Forward chaining B. Backward chaining C. Depth First Search D. None of the mentioned",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | What is used in backward chaining CO6 algorithm? A. Conjuncts B. Substitution C. Composition of substitution D. None of the mentioned",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | What will backward chaining algorithm CO6 return? A. Additional statements B. Logical statement C. Substitutes matching the query D. All of the mentioned",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:6: MCQ | Wumpus World is a best example of CO6 A. Adversarial search B. Reasoning with knowledge C. Constraint satisfaction problem D. Searching problem MCQ | Which algorithm will work backward from CO6 the goal to solve a problem? A. Forward chaining B. Backward chaining C. Depth First Search D. None of the mentioned MCQ | What is used in backward chaining CO6 algorithm? A. Conjuncts B. Substitution C. Composition of substitution D. None of the mentioned MCQ | What will backward chaining algorithm CO6 return? A. Additional statements B. Logical statement C. Substitutes matching the query D. All of the mentioned"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:7",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "MCQ | Knowledge and reasoning play a crucial CO6 role in dealing with environment. A. Completely Observable B. Partially Observable C. Neither Completely nor Partially Observable D. Both Completely and _ Partially Observable",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | Uncertainty arises in the Wumpus world CO6 because the agent’s sensors give only A. Full & Global information B. Partial & Global Information C. Partial & local Information D. Full & local information",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | I) Knowledge base (KB) consists of set of | CO6 sentences. II) Inference algorithm derives a new sentence from the KB. Choose the correct option: A. Lis true, II is true B. Lis false, II is false C. Lis true, IT is false D. Lis false, IT is true",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "MCQ | Inference algorithm is complete only if CO6 B a) It can derive any sentence. b) It can derive any sentence that is entailed. c) It derives only entailed sentences. d) It can derive some entailed sentences",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:7: MCQ | Knowledge and reasoning play a crucial CO6 role in dealing with environment. A. Completely Observable B. Partially Observable C. Neither Completely nor Partially Observable D. Both Completely and _ Partially Observable MCQ | Uncertainty arises in the Wumpus world CO6 because the agent’s sensors give only A. Full & Global information B. Partial & Global Information C. Partial & local Information D. Full & local information MCQ | I) Knowledge base (KB) consists of set of | CO6 sentences. II) Inference algorithm derives a new sentence from the KB. Choose the correct option: A. Lis true, II is true B. Lis false, II is false C. Lis true, IT is false D. Lis false, IT is true MCQ | Inference algorithm is complete only if CO6 B a) It can derive any sentence. b) It can derive any sentence that is entailed. c) It derives only entailed sentences. d) It can derive some entailed sentences"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:8",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "What are task environment and PEAS description? Specify C02 the task environments in a tabular manner for the following agents through their respective PEAS descriptions: i) Automated taxi driver ii) Medical diagnosis system iii) Part-picking robot iv) Satellite image analysis system",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain briefly six types of properties of task environments. State these properties of task environments in a tabular manner for the following agents: i) Chess with a clock ii) Refinery controller iii) Interactive English tutor iv) Mars rover",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Why is the table-driven approach to agent construction a failure?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "State four popular design types of agent architecture. Draw the schematic diagram and briefly explain each of these design types.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Draw the schematic diagram of a learning agent indicating its four conceptual components.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain the difference between a goal-based agent and a utility-based agent through examples and_ schematic diagrams. Draw the block schematic diagram of a learning agent and explain its four conceptual components through suitable examples.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:8: What are task environment and PEAS description? Specify C02 the task environments in a tabular manner for the following agents through their respective PEAS descriptions: i) Automated taxi driver ii) Medical diagnosis system iii) Part-picking robot iv) Satellite image analysis system Explain briefly six types of properties of task environments. State these properties of task environments in a tabular manner for the following agents: i) Chess with a clock ii) Refinery controller iii) Interactive English tutor iv) Mars rover Why is the table-driven approach to agent construction a failure? State four popular design types of agent architecture. Draw the schematic diagram and briefly explain each of these design types. Draw the schematic diagram of a learning agent indicating its four conceptual components. Explain the difference between a goal-based agent and a utility-based agent through examples and_ schematic diagrams. Draw the block schematic diagram of a learning agent and explain its four conceptual components through suitable examples."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:10",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "In A’ search, define the admissible heuristic and consistent heuristic. How do these two heuristics are associated with the optimality of A* search?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Consider the search problem below with start state A and goal state I. The transition costs (or step costs) are next to the edges, and the heuristic values are indicated within round brackets very close to the states. Apply A* search to expand the nodes systematically by drawing the corresponding tree diagrams. Find the order of expansion of nodes from start state to goal state.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "(18) (38) (35) (16) Under which condition, Depth first search fails? Explain how Depth limited search (DLS) takes care of this issue of DFS. What is the major drawback of DLS? Finally explain how Iterative deepening search (IDS) solves the issues of DFS and DLS and also combines the benefits of both DFS and Breadth first search (BFS)?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Show in a tabular manner the comparative performance measures of six uninformed search strategies, such as, BFS, UCS, DFS, DLS, IDS and BDS.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Justify why the time & space complexities of Bidirectional search (BDS) being implemented from both ends using BFS are considerably less than those of Breadth first search (BFS) being implemented only from initial end, for the given initial state and goal state.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Find the order of expansion of nodes for the following search graph using i) Uniform cost search (UCS) ii) Greedy best first search Assume start node to be S and goal node to be G. The values indicated along the connecting lines represent step costs or transition costs and values indicated inside the nodes represent heuristic values.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:10: In A’ search, define the admissible heuristic and consistent heuristic. How do these two heuristics are associated with the optimality of A* search? Consider the search problem below with start state A and goal state I. The transition costs (or step costs) are next to the edges, and the heuristic values are indicated within round brackets very close to the states. Apply A* search to expand the nodes systematically by drawing the corresponding tree diagrams. Find the order of expansion of nodes from start state to goal state. (18) (38) (35) (16) Under which condition, Depth first search fails? Explain how Depth limited search (DLS) takes care of this issue of DFS. What is the major drawback of DLS? Finally explain how Iterative deepening search (IDS) solves the issues of DFS and DLS and also combines the benefits of both DFS and Breadth first search (BFS)? Show in a tabular manner the comparative performance measures of six uninformed search strategies, such as, BFS, UCS, DFS, DLS, IDS and BDS. Justify why the time & space complexities of Bidirectional search (BDS) being implemented from both ends using BFS are considerably less than those of Breadth first search (BFS) being implemented only from initial end, for the given initial state and goal state. Find the order of expansion of nodes for the following search graph using i) Uniform cost search (UCS) ii) Greedy best first search Assume start node to be S and goal node to be G. The values indicated along the connecting lines represent step costs or transition costs and values indicated inside the nodes represent heuristic values."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:11",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Write the concept of Alpha-Beta pruning. Why is it preferred over Minimax search? What do the parameters Alpha and Beta mean? Solve the following example and show how alpha-beta pruning helps in pruning the search tree. MAX e MIN MAX @ ° ° * ° * ®",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Define Constraint Satisfaction Problem (CSP) along with its components.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain briefly three types of constraints in CSP.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Solve the following Cryptarithmetic problem, properly defining its variables, domains and constraints involved: (Each letter represents a distinct integer value from 0 to 9 and there must not be any leading zeroes) BASE",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Draw the constraint hypergraph of the same.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain how to formally define a problem using constraint satisfaction problem? Provide the constraint propagation and backtracking process in relation to map coloring problem.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:11: Write the concept of Alpha-Beta pruning. Why is it preferred over Minimax search? What do the parameters Alpha and Beta mean? Solve the following example and show how alpha-beta pruning helps in pruning the search tree. MAX e MIN MAX @ ° ° * ° * ® Define Constraint Satisfaction Problem (CSP) along with its components. Explain briefly three types of constraints in CSP. Solve the following Cryptarithmetic problem, properly defining its variables, domains and constraints involved: (Each letter represents a distinct integer value from 0 to 9 and there must not be any leading zeroes) BASE Draw the constraint hypergraph of the same. Explain how to formally define a problem using constraint satisfaction problem? Provide the constraint propagation and backtracking process in relation to map coloring problem."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:11",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "What is Logical Agent? What are its properties? Give the PEAS representation and characteristic features for “Wumpus world” problem. Take an example and explain how a logical agent can solve the problem.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain the knowledge-based agent for a partially observable environment. How is it different from a problem-solving agent? Explain entailment and inference with examples. What do you understand by soundness and completeness in inference mechanism?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain propositional logic and first order logic with respective syntax and semantics. Compare and contrast both representations with examples. Mention the components of a Planning Domain Definition Language (PDDL) with examples.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2021 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:11: What is Logical Agent? What are its properties? Give the PEAS representation and characteristic features for “Wumpus world” problem. Take an example and explain how a logical agent can solve the problem. Explain the knowledge-based agent for a partially observable environment. How is it different from a problem-solving agent? Explain entailment and inference with examples. What do you understand by soundness and completeness in inference mechanism? Explain propositional logic and first order logic with respective syntax and semantics. Compare and contrast both representations with examples. Mention the components of a Planning Domain Definition Language (PDDL) with examples."
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "exam_id": "2022_Spring_End_Semester_CS-3011",
+    "semester": "Spring End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3011",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": null,
+    "exam_duration_hours": 0.5,
+    "questions": [
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:1",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Acting humanly approach and Thinking rationally approach of AI respectively deal with: A. Logic and Rationality B. Cognitive Science and Logic C. Turing Test and Logic D. Rationality Cognitive Science",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:1: Acting humanly approach and Thinking rationally approach of AI respectively deal with: A. Logic and Rationality B. Cognitive Science and Logic C. Turing Test and Logic D. Rationality Cognitive Science"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:2",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Which statement below is a correct one? A. Rationality maximizes expected performance, while perfection maximizes actual performance. B. Rationality maximizes actual performance, while perfection maximizes expected performance. C. An omniscient agent does not know the actual outcome of its actions. D. A rational agent knows the actual outcome of its actions.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:2: Which statement below is a correct one? A. Rationality maximizes expected performance, while perfection maximizes actual performance. B. Rationality maximizes actual performance, while perfection maximizes expected performance. C. An omniscient agent does not know the actual outcome of its actions. D. A rational agent knows the actual outcome of its actions."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:3",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Uniform-cost search (UCS) expands the node with the: A. Lowest Heuristic cost B. Lowest path cost C. Highest path cost D. Average path cost",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:3: Uniform-cost search (UCS) expands the node with the: A. Lowest Heuristic cost B. Lowest path cost C. Highest path cost D. Average path cost"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:4",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "For solving 8-queen problem through GA, the objective function is stated as “Maximizing number of non-attacking pairs of queens”. In the goal state, this number is maximum. What is this value in the goal state? A. 25 B. 26 Cu 28 D. 30",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:4: For solving 8-queen problem through GA, the objective function is stated as “Maximizing number of non-attacking pairs of queens”. In the goal state, this number is maximum. What is this value in the goal state? A. 25 B. 26 Cu 28 D. 30"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:5",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Which is an example of Global constraint? A. K-consistent B. Alldiff C. Between (X, Y, Z) D. {(X1, X2), X1ZX2}",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:5: Which is an example of Global constraint? A. K-consistent B. Alldiff C. Between (X, Y, Z) D. {(X1, X2), X1ZX2}"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:6",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Which of the following options is true towards the meaning of the FOL sentence “Jy Wx Loves(x, y)”? A. For every person, there is someone that person loves. B. There is someone who is loved by everyone. C. Both A. and B. D. Neither A. nor B.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:6: Which of the following options is true towards the meaning of the FOL sentence “Jy Wx Loves(x, y)”? A. For every person, there is someone that person loves. B. There is someone who is loved by everyone. C. Both A. and B. D. Neither A. nor B."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:7",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "For a given finite branching factor, b and depth of shallowest goal node, d, let the number of nodes generated through IDS be N(IDS) and that generated through BFS be N(BFS). Then: A. N(IDS) extremely large as compared to N(BFS). B. N(IDS) < N(BFS). C. N(IDS) = N(BFS). D. N(IDS) moderately large as compared to N(BFS).",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:7: For a given finite branching factor, b and depth of shallowest goal node, d, let the number of nodes generated through IDS be N(IDS) and that generated through BFS be N(BFS). Then: A. N(IDS) extremely large as compared to N(BFS). B. N(IDS) < N(BFS). C. N(IDS) = N(BFS). D. N(IDS) moderately large as compared to N(BFS)."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:8",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Name the four approaches of AI. Briefly explain Turing Test. State six capabilities a computer system should have to qualify for this test.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "What is task environment? How is it specified? Provide the PEAS description in a tabular form for the following agents: (i) Satellite image analysis system (ii) Refinery controller (iii) Soccer playing agent (iv) High jump performing agent",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Briefly state the five components of problem formulation for a problem-solving agent. Formulate each of the following problems by stating these five components: i) 8-queen problem ii) Airline travel planning problem iii)",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:8: Name the four approaches of AI. Briefly explain Turing Test. State six capabilities a computer system should have to qualify for this test. What is task environment? How is it specified? Provide the PEAS description in a tabular form for the following agents: (i) Satellite image analysis system (ii) Refinery controller (iii) Soccer playing agent (iv) High jump performing agent Briefly state the five components of problem formulation for a problem-solving agent. Formulate each of the following problems by stating these five components: i) 8-queen problem ii) Airline travel planning problem iii)"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:9",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Mention six properties of a task environment. For each of the following agents, characterize environment of each one in terms of the six properties (preferably in tabular forms): i) Automated Taxi driving agent ii) Chess playing agent (with a clock) iii) Part-picking Robot",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "What are the common four measures to measure the performance of any search strategy? Give in a tabular manner, the comparison of performance measures of following five uninformed search strategies: i) Breadth first search (BFS) ii) Uniform cost search (UCS) iii) Depth first search (DFS) iv) Depth limited search (DLS) v) Iterative deepening search (IDS) vi) Bi-directional search (BDS)",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain briefly Hill climbing approach. Why is it considered as a beyond classical approach? Write about its three important issues and their remedial measures.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:9: Mention six properties of a task environment. For each of the following agents, characterize environment of each one in terms of the six properties (preferably in tabular forms): i) Automated Taxi driving agent ii) Chess playing agent (with a clock) iii) Part-picking Robot What are the common four measures to measure the performance of any search strategy? Give in a tabular manner, the comparison of performance measures of following five uninformed search strategies: i) Breadth first search (BFS) ii) Uniform cost search (UCS) iii) Depth first search (DFS) iv) Depth limited search (DLS) v) Iterative deepening search (IDS) vi) Bi-directional search (BDS) Explain briefly Hill climbing approach. Why is it considered as a beyond classical approach? Write about its three important issues and their remedial measures."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:10",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Briefly explain the Minimax algorithm stating about its time and space complexities.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "How is CSP different from standard search strategies?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Find the order of expansion of nodes for the following search graph using Greedy Best First search. Assume start node to be S and goal node to be G. The values indicated along the connecting lines represent step costs or transition costs and values indicated inside the nodes represent heuristic values.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Suppose GA is applied to 8-Queen problem. Following four real numbered chromosomes are initially selected in the population pool as parents: 1) 24415124 2) 24748552 3) 32543213 4) 32752411 If the fitness function is considered to be “The number of non-attacking pairs of queens”, then evaluate their fitness values in terms of their percentage of contribution and suggest with justification which of these chromosomes may be considered to be a relatively weak parent.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Apply alpha-beta pruning to following search tree: MAX @e OOOO OO NORGE EDO",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:10: (a) Briefly explain the Minimax algorithm stating about its time and space complexities. (b) How is CSP different from standard search strategies? Find the order of expansion of nodes for the following search graph using Greedy Best First search. Assume start node to be S and goal node to be G. The values indicated along the connecting lines represent step costs or transition costs and values indicated inside the nodes represent heuristic values. Suppose GA is applied to 8-Queen problem. Following four real numbered chromosomes are initially selected in the population pool as parents: 1) 24415124 2) 24748552 3) 32543213 4) 32752411 If the fitness function is considered to be “The number of non-attacking pairs of queens”, then evaluate their fitness values in terms of their percentage of contribution and suggest with justification which of these chromosomes may be considered to be a relatively weak parent. Apply alpha-beta pruning to following search tree: MAX @e OOOO OO NORGE EDO"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:11",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Explain how entailment of sentences can be done using Theorem proving by applying rules of inference directly to the sentences in the knowledge base.Cite your examples by considering the Knowledge Base (KB) from Wumpus World. Explain under what conditions, the method of Theorem proving is preferred over the method of Model checking.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "What is PDDL in classical planning? Give PDDL description for any one of the following examples: i) Air cargo transport ii) The spare tire problem iii) The blocks world",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:11: Explain how entailment of sentences can be done using Theorem proving by applying rules of inference directly to the sentences in the knowledge base.Cite your examples by considering the Knowledge Base (KB) from Wumpus World. Explain under what conditions, the method of Theorem proving is preferred over the method of Model checking. What is PDDL in classical planning? Give PDDL description for any one of the following examples: i) Air cargo transport ii) The spare tire problem iii) The blocks world"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "exam_id": "2022_Spring_End_Semester_CS-3011",
+    "semester": "Spring End Semester",
+    "exam_type": "End Semester",
+    "subject_code": "CS-3011",
+    "subject_name": "Artificial Intelligence",
+    "total_exam_marks": null,
+    "exam_duration_hours": null,
+    "questions": [
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:1",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Under which category the following definition of AI belongs? “The study of mental faculties through the use of computational models.” A. Turing Test Approach B. Cognitive Modelling Approach C. The “Laws of Thought” Approach D. Rational Agent Approach",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:1: Under which category the following definition of AI belongs? “The study of mental faculties through the use of computational models.” A. Turing Test Approach B. Cognitive Modelling Approach C. The “Laws of Thought” Approach D. Rational Agent Approach"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:2",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Which conceptual element of Learning agent uses feedback from the Critic on how the agent is doing and determines how the performance element should be modified to do better in the future. A. Performance element B. Learning element C. Problem generator D. Critic",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:2: Which conceptual element of Learning agent uses feedback from the Critic on how the agent is doing and determines how the performance element should be modified to do better in the future. A. Performance element B. Learning element C. Problem generator D. Critic"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:3",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "A* search is optimal: A. If its graph search version is having admissible heuristic. B. If its tree search version is having admissible heuristic while its graph search version is having consistent heuristic. C. Ifits tree search version is having consistent heuristic. D. None of the above.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:3: A* search is optimal: A. If its graph search version is having admissible heuristic. B. If its tree search version is having admissible heuristic while its graph search version is having consistent heuristic. C. Ifits tree search version is having consistent heuristic. D. None of the above."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:4",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Hill climbing has the following variant(s): Stochastic Hill climbing First choice Hill climbing Random restart Hill climbing . All of the above vOe>",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:4: Hill climbing has the following variant(s): Stochastic Hill climbing First choice Hill climbing Random restart Hill climbing . All of the above vOe>"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:5",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "If a constraint is expressed as “(AxleF + 10 < AxleB) OR (AxleB + 10 < AxleF)”, such type of constraint is known as: A. Preference constraint B. Precedence constraint C. Disjunctive constraint D. Global constraint",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:5: If a constraint is expressed as “(AxleF + 10 < AxleB) OR (AxleB + 10 < AxleF)”, such type of constraint is known as: A. Preference constraint B. Precedence constraint C. Disjunctive constraint D. Global constraint"
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:6",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "In which of the following cases, a |= Pfails (i. e. sentence a does not entail the sentence B)? A.a is false and f is false. B. a is false and f is true. C. a is true and f is true. D.a is true and f is false.",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:6: In which of the following cases, a |= Pfails (i. e. sentence a does not entail the sentence B)? A.a is false and f is false. B. a is false and f is true. C. a is true and f is true. D.a is true and f is false."
+      },
+      {
+        "question_section": "SECTION-A",
+        "question_number": "Q.No:7",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "With the following initial state and goal state in the 8-puzzle problem, what are the values of heuristics h/ and h2 respectively where h/ = Number of misplaced tiles and 42 = Manhattan distance: Initial State: 5 2 1 8 7 6 4 3 Goal State: 1 2 3 4 5) 6 7 8 A. 6and 11 B. 7 and 11 C. 6and 12 D. 7and 12",
+            "marks": 2,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-A: Question Q.No:7: With the following initial state and goal state in the 8-puzzle problem, what are the values of heuristics h/ and h2 respectively where h/ = Number of misplaced tiles and 42 = Manhattan distance: Initial State: 5 2 1 8 7 6 4 3 Goal State: 1 2 3 4 5) 6 7 8 A. 6and 11 B. 7 and 11 C. 6and 12 D. 7and 12"
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:8",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Briefly explain the four approaches of AI. Which of these approaches is preferred most? Justify with reasons.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain a Learning agent with suitable diagram. Describe its various conceptual components with an example for each of these components.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:8: Briefly explain the four approaches of AI. Which of these approaches is preferred most? Justify with reasons. Explain a Learning agent with suitable diagram. Describe its various conceptual components with an example for each of these components."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:9",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Explain the following uninformed search strategies by mentioning the significance of each one: i. Depth First Search (DFS) ii. Depth Limited Search (DLS) iii. Iterative Deepening Search (IDS) One of these three is the preferred uninformed search method when the search space is large and the depth of the solution is not known. Which one is this? Give justification.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain the following terms associated with intelligent agents: i) Agent function ii) Agent program iii) Performance measure iv) Rationality",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Consider the graph below with start nodeaand goal nodez. The transition costs (or step costs) are next to the edges, and the heuristic values are indicated in red color close to the nodes. The heuristic value for goal node is zero. Apply A‘ search to expand the nodes systematically by drawing the corresponding tree diagrams. Find the final path and order of expansion of nodes from start node to goal node.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:9: Explain the following uninformed search strategies by mentioning the significance of each one: i. Depth First Search (DFS) ii. Depth Limited Search (DLS) iii. Iterative Deepening Search (IDS) One of these three is the preferred uninformed search method when the search space is large and the depth of the solution is not known. Which one is this? Give justification. Explain the following terms associated with intelligent agents: i) Agent function ii) Agent program iii) Performance measure iv) Rationality Consider the graph below with start nodeaand goal nodez. The transition costs (or step costs) are next to the edges, and the heuristic values are indicated in red color close to the nodes. The heuristic value for goal node is zero. Apply A‘ search to expand the nodes systematically by drawing the corresponding tree diagrams. Find the final path and order of expansion of nodes from start node to goal node."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:10",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Explain two heuristic functions associated with 8-puzzle problem through a suitable example. Justify that these two heuristics are admissible heuristics.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Enlist at least three local search algorithms. Explain the Hill Climbing approach through its algorithm. Write about local beam search and stochastic beam search.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "In the following cryptarithmetic question, the value of each variable (i.e. each type of uppercase letters) is a unique integer number lying in the domain {o, 1. 2, 3, 4, 5, 6, 7, 8, 9}. Only restriction is that no leading zeroes are allowed. Cc ROS S§S +R OAD S DANGER Find a solution by applying constraint satisfaction rules.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "Explain through examples various types of constraints associated with variables in a CSP. Also briefly explain various types of local consistency.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:10: Explain two heuristic functions associated with 8-puzzle problem through a suitable example. Justify that these two heuristics are admissible heuristics. Enlist at least three local search algorithms. Explain the Hill Climbing approach through its algorithm. Write about local beam search and stochastic beam search. In the following cryptarithmetic question, the value of each variable (i.e. each type of uppercase letters) is a unique integer number lying in the domain {o, 1. 2, 3, 4, 5, 6, 7, 8, 9}. Only restriction is that no leading zeroes are allowed. Cc ROS S§S +R OAD S DANGER Find a solution by applying constraint satisfaction rules. Explain through examples various types of constraints associated with variables in a CSP. Also briefly explain various types of local consistency."
+      },
+      {
+        "question_section": "SECTION-B",
+        "question_number": "Q.No:11",
+        "question_parts": [
+          {
+            "part_id": "full",
+            "text": "Give a comparison between Propositional Logic and First Order Logic (FOL). Explain the following features of FOL through suitable examples: i) Universal quantifier ii) Existential quantifier iii) Nested quantifier iv) Objects v) Relations (including Properties and Functions)",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "full",
+            "text": "What is PDDL in classical planning? Give PDDL description for any one of the following examples: i) Air cargo transport ii) The spare tire problem iii) The blocks world",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2022 Spring End Semester Artificial Intelligence (CS-3011) SECTION-B: Question Q.No:11: Give a comparison between Propositional Logic and First Order Logic (FOL). Explain the following features of FOL through suitable examples: i) Universal quantifier ii) Existential quantifier iii) Nested quantifier iv) Objects v) Relations (including Properties and Functions) What is PDDL in classical planning? Give PDDL description for any one of the following examples: i) Air cargo transport ii) The spare tire problem iii) The blocks world"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "exam_id": "2023_Unknown_End_Semester_Unknown",
+    "semester": "Unknown",
+    "exam_type": "End Semester",
+    "subject_code": "Unknown",
+    "subject_name": "Unknown",
+    "total_exam_marks": null,
+    "exam_duration_hours": null,
+    "questions": [
+      {
+        "question_section": "General",
+        "question_number": "1",
+        "question_parts": [
+          {
+            "part_id": "a",
+            "text": "Define deterministic and stochastic environment type.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "b",
+            "text": "Identify agent types in following cases i. Chatbot ii. Driverless Car",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "c",
+            "text": "Find which search is better among BFS and DFS.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "d",
+            "text": "Identify three factors on which the rationality of an agent depends upon.",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "e",
+            "text": "“All employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL).",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "f",
+            "text": "What are the disadvantages of hill climbing algorithm?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "g",
+            "text": "Define Constraint Satisfaction Problem (CSP).",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "h",
+            "text": "Define game theory approach in context of AI. he P means “It is hot”, Q means “It is humid”, R means “It is raining” then show the output for = (PAQ)>R",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          },
+          {
+            "part_id": "j",
+            "text": "What is FOPL stands for and explain its role in Artificial Intelligence?",
+            "marks": null,
+            "keywords": [],
+            "repeated_in_years": []
+          }
+        ],
+        "full_question_text_for_embedding": "2023 Unknown Unknown Artificial Intelligence (Unknown) General: Question 1: (a) Define deterministic and stochastic environment type. (b) Identify agent types in following cases i. Chatbot ii. Driverless Car (c) Find which search is better among BFS and DFS. (d) Identify three factors on which the rationality of an agent depends upon. (e) “All employee of INFOSYS are software engineers” express the sentence using First Order Predicate Logic (FOPL). (f) What are the disadvantages of hill climbing algorithm? (g) Define Constraint Satisfaction Problem (CSP). (h) Define game theory approach in context of AI. he P means “It is hot”, Q means “It is humid”, R means “It is raining” then show the output for = (PAQ)>R (j) What is FOPL stands for and explain its role in Artificial Intelligence?"
+      }
+    ]
+  }
+]

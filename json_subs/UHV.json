@@ -1,0 +1,51 @@
+[
+  {
+    "university": "Kalinga Institute of Industrial Technology",
+    "year": "2024",
+    "exam_type": "Autumn Mid-Semester Examination",
+    "semester": "5th",
+    "programme": "B.Tech",
+    "branch": "Electrical, Electronics and Mechanical",
+    "subject_name": "Universal Human Values",
+    "subject_code": "HS30401",
+    "duration": "1.5 hours",
+    "full_marks": 20,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "Question No.1",
+      "total_questions_to_answer": "Answer any FOUR questions including question No.1 which is compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the right-hand side indicate full marks.",
+        "All parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology",
+    "year": "2024",
+    "exam_type": "Autumn End-Semester Examination",
+    "semester": "5th",
+    "programme": "B.Tech.",
+    "branch": "ME, EEE, ECE, CE, CSE, IT, AEIE, ETC.",
+    "subject_name": "UNIVERSAL HUMAN VALUES",
+    "subject_code": "HS30401",
+    "duration": "2 Hours 30 Minutes",
+    "full_marks": 50,
+    "instructions": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "compulsory_section": "Section-A",
+      "total_questions_to_answer": "Answer any FIVE questions.",
+      "questions_per_section_constraint": "Attempt any Four questions from Section B.",
+      "other_instructions": [
+        "The figures in the right hand side indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": "Qb. Set Code-7"
+  }
+]

@@ -1,0 +1,1517 @@
+[
+  {
+    "exam_id": "2021_ENDSEM",
+    "exam_type": "ENDSEM",
+    "year": 2021,
+    "semester": "Spring",
+    "programme": "B.Tech",
+    "branch": "IT",
+    "subject_name": "Machine Learning",
+    "subject_code": "CS3035",
+    "time_allowed": "2 Hours",
+    "full_marks": 50,
+    "instructions": [],
+    "sections": [
+      {
+        "section_name": "SECTION-A",
+        "instructions": "Answer All Questions. Each question carries 2 Marks",
+        "time_allowed": "30 Minutes",
+        "marks": 14,
+        "questions": [
+          {
+            "question_number": "Q.No:1",
+            "question_type": "MCQ/SAT",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Which of the following outcome is odd man out in the below list?",
+                "options": {
+                  "A": "R Squared",
+                  "B": "RMSE",
+                  "C": "Kappa",
+                  "D": "All of the mentioned"
+                },
+                "answer_key": "C"
+              },
+              {
+                "text": "Point out the wrong statement.",
+                "options": {
+                  "A": "Regression through the origin yields an equivalent slope if you center the data first",
+                  "B": "Normalizing variables results in the slope being the correlation",
+                  "C": "Least squares is not an estimation tool",
+                  "D": "None of the mentioned"
+                },
+                "answer_key": "C"
+              },
+              {
+                "text": "Which of the following implies no relationship with respect to correlation?",
+                "options": {
+                  "A": "Cor(X, Y) =0",
+                  "B": "Cor(X, Y) =1",
+                  "C": "Cor(X, Y) = 2",
+                  "D": "All of the mentioned"
+                },
+                "answer_key": "A"
+              },
+              {
+                "text": "Residual plots investigate normality of the errors.",
+                "options": {
+                  "A": "RR",
+                  "B": "QQ",
+                  "C": "PP",
+                  "D": "None of the mentioned"
+                },
+                "answer_key": "B"
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:2",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Which of the following is the correct formula for total variation?",
+                "options": {
+                  "A": "Total Variation = Residual Variation — Regression Variation",
+                  "B": "Total Variation = Residual Variation + Regression Variation",
+                  "C": "Total Variation = Residual Variation * Regression Variation",
+                  "D": "All of the mentioned"
+                },
+                "answer_key": "B"
+              },
+              {
+                "text": "Which of the following is required by K-means clustering?",
+                "options": {
+                  "A": "defined distance metric",
+                  "B": "number of clusters",
+                  "C": "initial guess as to cluster centroids",
+                  "D": "All of these"
+                },
+                "answer_key": "D"
+              },
+              {
+                "text": "Minimizing the likelihood is the same as maximizing -2 log likelihood.",
+                "options": {
+                  "A": "True",
+                  "B": "False"
+                },
+                "answer_key": "A"
+              },
+              {
+                "text": "Let us say that we have computed the gradient of our cost function and stored it in a vector g. What is the cost of one gradient descent update given the gradient?",
+                "options": {
+                  "A": "O(N)",
+                  "B": "O(D)",
+                  "C": "O(ND)",
+                  "D": "O(ND2)"
+                },
+                "answer_key": "B"
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:3_Implicit",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Consider a linear-regression model with N = 3 and D = 1 with input-ouput pairs as follows: y1 = 22, X1= 1, y2 = 3, X2 = 1, y3 = 3, X3 = 2. What is the gradient of mean-square error (MSE) with respect to B1 when Bo = 0 and £1 = 1? Give your answer correct to two decimal digits.",
+                "options": {
+                  "A": "-1.66",
+                  "B": "1.66",
+                  "C": "1.39",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "Gradient of a continuous and differentiable function",
+                "options": {
+                  "A": "is zero at a minimum",
+                  "B": "is non-zero at a maximum",
+                  "C": "decreases as you get closer to the minimum",
+                  "D": "All of these"
+                }
+              },
+              {
+                "text": "Which of the following sentence is FALSE regarding regression?",
+                "options": {
+                  "A": "It relates inputs to outputs.",
+                  "B": "It is used for prediction.",
+                  "C": "It may be used for interpretation.",
+                  "D": "It discovers causal relationships"
+                }
+              },
+              {
+                "text": "For the one-parameter model, mean-Square error (MSE) _ is defined as follows: = rn - Bo)?). We have a half term in the front because,",
+                "options": {
+                  "A": "scaling MSE by half makes gradient descent converge faster.",
+                  "B": "presence of half makes it easy to do grid search.",
+                  "C": "it does not matter whether half is there or not.",
+                  "D": "none of the above"
+                }
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:4_Implicit",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Lasso can be interpreted as least-squares linear regression where",
+                "options": {
+                  "A": "weights are regularized with the L1 norm",
+                  "B": "weights are regularized with the L2 norm",
+                  "C": "the weights have a Gaussian prior",
+                  "D": "the solution algorithm — is simpler"
+                }
+              },
+              {
+                "text": "Regarding bias and variance, which of the following statements are true? (Here ‘high’ and ‘low’ are relative to the ideal model.)",
+                "options": {
+                  "A": "Models which overfit have a high bias.",
+                  "B": "Models which overfit have a low bias.",
+                  "C": "Models which underfit have a high variance.",
+                  "D": "All of these"
+                }
+              },
+              {
+                "text": "In K-fold cross-validation, K is",
+                "options": {
+                  "A": "A float (decimal) value",
+                  "B": "An integer value",
+                  "C": "An complex imaginary value",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "The second principal (PC2) component is to the first principal component (PC1)",
+                "options": {
+                  "A": "Orthogonal",
+                  "B": "Inverse",
+                  "C": "Transpose",
+                  "D": "None of these"
+                }
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:5_Implicit",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "What is the cosine similarity between _[4, 3, 3, 5], and__[2, 0, 0, o]?",
+                "options": {
+                  "A": "0.52",
+                  "B": "0.62",
+                  "C": "0.72",
+                  "D": "0.74"
+                }
+              },
+              {
+                "text": "Find the odd out from the following list: Genetic Algorithm (GA), Particle Swarm Optimization (PSO), Stochastic Gradient Descent (SGD), and Gravitational Search Algorithm (GSA).",
+                "options": {
+                  "A": "GA",
+                  "B": "PSO",
+                  "C": "SGD",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "What is the cosine similarity between [5,2,0,5],and [2,0,0, o]",
+                "options": {
+                  "A": "0.58",
+                  "B": "0.55",
+                  "C": "0.75",
+                  "D": "0.68"
+                }
+              },
+              {
+                "text": "The Manhattan distance between two points (10, 10) and (30,30) is:",
+                "options": {
+                  "A": "20",
+                  "B": "30",
+                  "C": "40",
+                  "D": "50"
+                }
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:6_Implicit",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Suppose we train a hard-margin linear SVM on n > 100 data points in , yielding a hyperplane with exactly 2 support vectors. If we add one more data point and retrain the classifier, what is the maximum possible number of support vectors for the new hyperplane (assuming the n + 1 points are linearly separable)?",
+                "options": {
+                  "A": "2",
+                  "B": "3",
+                  "C": "\\m+1)",
+                  "D": "n"
+                }
+              },
+              {
+                "text": "A valid Kernel function follows condition.",
+                "options": {
+                  "A": "Vornoi",
+                  "B": "Minkowiski",
+                  "C": "Mercers",
+                  "D": "None of them"
+                }
+              },
+              {
+                "text": "In Soft-margin Support Vector Classifier, the variable allows few instances within the margin.",
+                "options": {
+                  "A": "Slack",
+                  "B": "Sigma",
+                  "C": "Beta",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "multipliers used to integrate the inequality constraints into the main objective function.",
+                "options": {
+                  "A": "Euler",
+                  "B": "Lagrangian",
+                  "C": "Lypanov",
+                  "D": "None of these"
+                }
+              }
+            ]
+          },
+          {
+            "question_number": "Q.No:7",
+            "question_type": "MCQ",
+            "marks_per_sub_question": 2,
+            "sub_questions": [
+              {
+                "text": "Neural networks",
+                "options": {
+                  "A": "optimize a convex cost function",
+                  "B": "can be used for regression as well as classification",
+                  "C": "always output values between 0 and1",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "Sigmoidal activation function maps the neuron output between",
+                "options": {
+                  "A": "-1to +1",
+                  "B": "oto1",
+                  "C": "Either 0 or 1",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "A single input and output nuron has an input of 2, a weight of 6 and a bias of -5.5. What will be the output if the activation function is bipolar sigmoid (where, slope s=0.6 and round off 4 decimal places)",
+                "options": {
+                  "A": "0.9802",
+                  "B": "0.7806",
+                  "C": "0.9881",
+                  "D": "None of these"
+                }
+              },
+              {
+                "text": "In a multi-layer neural network, the term “multi” suggests",
+                "options": {
+                  "A": "Only one hidden layer in between input and output layers",
+                  "B": "One or more hidden layer(s) in between input and output layers",
+                  "C": "Always more than one hidden layers in between input and output layers",
+                  "D": "None of these"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-B",
+        "instructions": "Answer Any Three Questions. Each Question carries 12 Marks",
+        "time_allowed": "1 Hour and 30 Minutes",
+        "marks": 36,
+        "questions": [
+          {
+            "question_number": "8",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "Why do we call Naive Bayes classifier “Naive”? State its advantages and disadvantages.",
+                "marks": 3
+              },
+              {
+                "label": "B",
+                "text": "Explain the following with examples: One-Against-All (OAA) and One-Against-One (OAO).",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "Derive the Naive Bayes classification algorithm using the following toy dataset. Classify a “Red SUV Domestic” using Naive Bayes Classifier. (Dataset provided)",
+                "marks": 5
+              }
+            ]
+          },
+          {
+            "question_number": "9",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What is slack variable and its role in soft-margin SVM classifier? Explain the concept using suitable diagram.",
+                "marks": 2
+              },
+              {
+                "label": "B",
+                "text": "Find the entropy, information gain and draw the decision trees for the following set of training dataset. (Dataset provided)",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "Explain the following terms with examples: Confusion Matrix, Accuracy, Precision, Recall, Fi-score and Area Under the Curve (AUC).",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "10_v1",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "Explain the following with examples: One-Against-All (OAA) and One-Against-One (OAO).",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "States the Mercers conditions for a valid kernel function. Name at least four valid kernel functions used in SVM classifier with appropriate equations.",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "The merits and demerits of the SVM classifier.",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "10_v2",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What is “curse of dimensionality”? State the possible remedies.",
+                "marks": 3
+              },
+              {
+                "label": "B",
+                "text": "What is a Covariance Matrix? State its limitation.",
+                "marks": 3
+              },
+              {
+                "label": "C",
+                "text": "Using PCA, reduce the Dimension of the given data from 2 to 1. (Dataset provided)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "10_v3",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "Differentiate between lossy and lossless feature/attribute reduction with suitable examples.",
+                "marks": 3
+              },
+              {
+                "label": "B",
+                "text": "What is a Covariance Matrix? State its limitation.",
+                "marks": 3
+              },
+              {
+                "label": "C",
+                "text": "Explain the Principal Component Analysis (PCA) and reduce the following dataset step-by-step from 2 dimensions to 1. (Dataset provided)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "10_v4",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "Differentiate between lossy and lossless feature/attribute reduction with suitable examples.",
+                "marks": 2
+              },
+              {
+                "label": "B",
+                "text": "What is a principal component? Explain the (mathematical) relationship between the first and the second principal components.",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "Using PCA, reduce the Dimension of the given data from 2 to 1. (Dataset provided)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "11_v1",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What are over-fitting and under-fitting? Explain them with suitable examples.",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "Explain the Elbow technique to determine sn appropriate “K” value in K-NN classifier.",
+                "marks": 2
+              },
+              {
+                "label": "C",
+                "text": "What are the intra-cluster and inter-cluster distances? Using K-means Clustering Algorithm, cluster the following data points: P1=(75,102), P2=(201,16), P3=(68, 80), P4=(188,36), P5=(165,55) and P6=(100,42). where, K=2, and use Euclidean distance for the purpose. (start the computation with P2 and P3 as the two initial centroids points)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "11_v2",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What is the significance of bias in the decision boundary? Explain the Bias-Variance relationship in machine learning with suitable diagrams.",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "Why does we use the term “regression” in the Logistic Regression classification algorithm.",
+                "marks": 2
+              },
+              {
+                "label": "C",
+                "text": "Using KNN algorithm and the given data set, predict the class label of the test data point (16,8), where K=3 and Euclidean distance. (Dataset provided)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "11_v3",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What are the over-fitting and the under-fitting? Explain them with suitable examples.",
+                "marks": 3
+              },
+              {
+                "label": "B",
+                "text": "What are the intra-cluster and inter-cluster distances? Explain the Elbow technique to determine an appropriate “K” value in K-NN classifier.",
+                "marks": 3
+              },
+              {
+                "label": "C",
+                "text": "Using K-means Clustering Algorithm, cluster the following data points: P1=(75,102), P2=(201,16), P3=(68, 80), P4=(188,36), P5=(165,55) and P6=(100,42). where, K=2, and use Euclidean distance for the purpose. (start the computation with P1 and P3 as the two initial centroids points)",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "11_v4",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What is Binary Activated Neuron model? States its limitations.",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "A two input single output neuron model has weights value [1.5 -2.1] and bias of -3. It is given an input [2.0 2.5]. What will be the output if the binary step function threshold=1 is used?",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "Describe Multi-layer Perceptron Neural Network with suitable mathematical expressions and diagram.",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "11_v5",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What is perceptron? Explain it with an example.",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "Differentiate between linearly and non-linearly separable datasets.",
+                "marks": 2
+              },
+              {
+                "label": "C",
+                "text": "Solve XOR problem with a two input artificial neuron model.",
+                "marks": 6
+              }
+            ]
+          },
+          {
+            "question_number": "11_v6",
+            "sub_questions": [
+              {
+                "label": "A",
+                "text": "What are the learning rate and the momentum in Artificial Neural Network (ANN) model? State different learning rules used in ANN.",
+                "marks": 4
+              },
+              {
+                "label": "B",
+                "text": "Draw a diagram of a multiple input single output artificial neural network and compute its input-output relationship.",
+                "marks": 4
+              },
+              {
+                "label": "C",
+                "text": "Describe the Backpropagation algorithm using appropriate mathematical expressions.",
+                "marks": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "exam_id": "2022_01_ENDSEM",
+    "exam_type": "ENDSEM",
+    "year": 2022,
+    "semester": "5th",
+    "programme": "B.Tech",
+    "branch": "CSSE",
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS3035",
+    "time_allowed": "3 Hours",
+    "full_marks": 50,
+    "instructions": [
+      "Answer any SIX questions.",
+      "Question paper consists of four SECTIONS i.e. A, B, C and D.",
+      "Section A is compulsory.",
+      "Attempt minimum one question each from Sections B, C, D.",
+      "The figures in the margin indicate full marks.",
+      "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+    ],
+    "sections": [
+      {
+        "section_name": "SECTION-A",
+        "instructions": "Answer the following questions.",
+        "marks": 10,
+        "questions": [
+          {
+            "question_number": "a",
+            "text": "Sketch the basic block diagram of a learning machine.",
+            "marks": 1
+          },
+          {
+            "question_number": "b",
+            "text": "The Manhattan distance between two points (10, 10) and (30,30) is:",
+            "options": {
+              "A": "20",
+              "B": "30",
+              "C": "40",
+              "D": "50"
+            },
+            "answer_key": "C",
+            "marks": 1
+          },
+          {
+            "question_number": "c",
+            "text": "K-Nearest Neighbor is a . algorithm.",
+            "options": {
+              "A": "Non-parametric, eager",
+              "B": "Parametric, eager",
+              "C": "Non-parametric, lazy",
+              "D": "Parametric, lazy"
+            },
+            "answer_key": "C",
+            "marks": 1
+          },
+          {
+            "question_number": "d",
+            "text": "Give an example scenario where a multiple linear regression model is necessary.",
+            "marks": 1
+          },
+          {
+            "question_number": "e",
+            "text": "State the difference between Generalized Linear Model and Linear model?",
+            "marks": 1
+          },
+          {
+            "question_number": "f",
+            "text": "What should you do when your model is suffering from low bias and high variance?",
+            "marks": 1
+          },
+          {
+            "question_number": "g",
+            "text": "How do you initialize weights in a neural network?",
+            "marks": 1
+          },
+          {
+            "question_number": "h",
+            "text": "In a binary classification problem, out of 30 data points 12 belong to class I and 18 belong to class II. What is the entropy of the data set?",
+            "options": {
+              "A": "0.97",
+              "B": "0",
+              "C": "1",
+              "D": "0.67"
+            },
+            "answer_key": "A",
+            "marks": 1
+          },
+          {
+            "question_number": "i",
+            "text": "Which of the following algorithms is not an ensemble learning algorithm?",
+            "options": {
+              "A": "Random Forest",
+              "B": "Adaboost",
+              "C": "Gradient Boosting",
+              "D": "Decision Trees"
+            },
+            "answer_key": "D",
+            "marks": 1
+          },
+          {
+            "question_number": "j",
+            "text": "Explain the phrase “Curse of Dimensionality”.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-B",
+        "questions": [
+          {
+            "question_number": "2",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Explain the principle of the gradient descent algorithm. Accompany your explanation with a diagram. Derive the gradient descent training rule for weight update equation.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Using KNN algorithm and the given data set, predict the label of the test data point (3,7), where K=3 and Euclidean distance.",
+                "marks": 4
+              },
+              {
+                "label": "c",
+                "text": "Fit a straight line trend by the method of least square from the following data and find the trend values. (Dataset provided)",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "3",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Explain L1 and L2 regularization with detailed mathematical equations and explain its importance.",
+                "marks": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-C",
+        "questions": [
+          {
+            "question_number": "4",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Discuss the following terms with examples: Confusion Matrix, Accuracy, Precision, Recall. Suppose I have 10,000 emails in my mailbox out of which 200 are spams. The spam detection system detects 150 mails as spams, out of which 50 are actually spams. What is the precision and recall of my spam detection system?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Explain the below given terms with suitable examples (i) linearly and non-linearly separable datasets (ii) over-fitting and under-fitting",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "5",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Why do we use a logistic function in Logistic Regression? How does the Maximum Likelihood estimation help in computing the parameter of logit function?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Divide the given sample data set into two(2) clusters using K means Algorithm by using Euclidean distance. Use Cluster 1 (185, 72) and Cluster 2 (170, 56) as initial cluster centers. (Dataset provided)",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "6",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Write Short notes on I. Bagging IL. Boosting III. Random Forests IV. Adaboost",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Explain the Principal Component Analysis (PCA) and reduce the following dataset step-by-step from 2 dimensions to 1. (Dataset provided)",
+                "marks": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-D",
+        "questions": [
+          {
+            "question_number": "7",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Why is SVM more accurate than Logistic regression? Plot a hyper plane for the given data set (1,-1) (2,-1) (4,0) (5,1) (5,-1) (6,0) by using SVM.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "State the characteristics of an artificial neural network. Construct a feed-forward network with five input nodes, three hidden nodes and four output nodes with necessary mathematical expressions and explanations.",
+                "marks": 4
+              }
+            ]
+          },
+          {
+            "question_number": "8",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Consider the following set of training examples: (Dataset provided) I. What is the entropy of this collection of training examples with respect to the target function classification? Il. What is the information gain of a2 relative to these training examples? III. Draw decision tree for the given data set.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Implement AND function using McCulloch-Pitts neuron (take binary data). Consider the below given truth table for AND function. (Truth table provided)",
+                "marks": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "exam_id": "2022_02_ENDSEM_Set_1",
+    "exam_type": "ENDSEM",
+    "year": 2022,
+    "semester": "6th",
+    "programme": "B.Tech",
+    "branch": null,
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS3035",
+    "time_allowed": "2 Hours",
+    "full_marks": 50,
+    "instructions": [
+      "Roll No.",
+      "Registration No.",
+      "Name",
+      "Date of Exam"
+    ],
+    "sections": [
+      {
+        "section_name": "SECTION-A",
+        "instructions": "Answer All Questions",
+        "time_allowed": "30 Minutes",
+        "marks": 14,
+        "questions": [
+          {
+            "question_number": "Q.No:1",
+            "text": "In ML trade-off between over- fitting and under- fitting is always done to get optimal fit models. In the context of ANN this trade off is affected by some structural assumption of ANN. Which one of the following can most affect the trade-off in ANN.",
+            "options": {
+              "A": "The number of hidden nodes",
+              "B": "The learning rate",
+              "C": "The initial choice of weights",
+              "D": "The use of a constant-term unit input"
+            }
+          },
+          {
+            "question_number": "Q.No:2",
+            "text": "We know from the decision —tree learning that whenever the attributes are real-valued we usually prefer to split them into binary buckets taking some threshold value. However, one of your friend advised you to adopt multiway split. From the options given below what you think would be the single biggest problem if you follow his advice.",
+            "options": {
+              "A": "Computational cost will increase",
+              "B": "Final decision tree would do badly on training and testing data",
+              "C": "Final decision tree will do better with training data but will fair bad with testing data",
+              "D": "Final decision tree will do better with testing data but will fair bad with training data."
+            }
+          },
+          {
+            "question_number": "Q.No:3",
+            "text": "P(Blockbuster Movie | Includes Will Smith) = 0.01 P(Blockbuster Movie |Will Smith absent) = 0.1 P(Will Smith in a randomly chosen movie) = 0.01 What is P(Will Smith is in the movie | Not a Blockbuster Movie)?",
+            "options": {
+              "A": "0.01",
+              "B": "0.001",
+              "C": "0.010",
+              "D": "0.0010"
+            }
+          },
+          {
+            "question_number": "Q.No:4",
+            "text": "It is found that we cannot find the value y that satisfy the below two equations simultaneously. Find the value of y using least square errors. 4y=6 8y=2",
+            "options": {
+              "A": "0.7",
+              "B": "None of the above"
+            }
+          },
+          {
+            "question_number": "Q.No:5",
+            "text": "Select the statement what is false for K-NN algorithm.",
+            "options": {
+              "A": "The variance usually increases as K increases.",
+              "B": "K-NN can be used for classification as well as regression.",
+              "C": "The bias usually increases as K increases.",
+              "D": "The larger the value of K, smoother the decision boundary."
+            }
+          },
+          {
+            "question_number": "Q.No:6",
+            "text": "Select the true statement about PCA.",
+            "options": {
+              "A": "The principal components that explain the lowest variance are selected last.",
+              "B": "It does not require standardized data.",
+              "C": "Principal components need not be orthogonal to each other.",
+              "D": "It can be used to transform data into higher dimensions."
+            }
+          },
+          {
+            "question_number": "Q.No:7",
+            "text": "Linearly inseparable problems are solved using neural networks because,",
+            "options": {
+              "A": "they are the class of problem that if continuous and bounded can be approximated by a multilayer perceptron",
+              "B": "they are the class of problem that neural networks with linear activation functions can solve",
+              "C": "they are the only class of problem that neural networks can solve successfully",
+              "D": "they are the class of problem that can be solved by single layer perceptron"
+            }
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-B",
+        "instructions": "Answer Any Three Questions.",
+        "time_allowed": "1 Hour and 30 Minutes",
+        "marks": 36,
+        "questions": [
+          {
+            "question_number": "8",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Describe the following learning task with one real-life applications of each i) Classification ii) Regression iii) Clustering iv) Learning associations",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Why for real-world problems, finding optimal machine by true risk minimization is mostly not possible? What is the solution for this problem? Derive mathematical equations for true risk function and empirical risk function.",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "9",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What do you mean by compactness and separability of clusters and how are they computed in K-means?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Identify the first splitting attribute for decision tree by using ID3 algorithm with the following dataset. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "10",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What is the goal of the support vector machine (SVM)?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Find out the hyperplane equation for the following data. Identify whether it is a Soft Margin Hyperplane or Hard Margin Hyperplane. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "11",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Given the confusion matrices for the following models, compare their costs if the cost is defined by sum of false negative rate and five times the false positive rate. (Model data provided)",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "In which situation Widrow —hoff rule fails? Derive Back propagation algorithm for a NN having 3 inputs, 2 hidden layers each having three neurons and output layer having two neurons. You may ignore the bias term. Sigmoid is used as the activation function in the network.",
+                "marks": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "exam_id": "2022_02_ENDSEM_Set_2",
+    "exam_type": "ENDSEM",
+    "year": 2022,
+    "semester": "6th",
+    "programme": "B.Tech",
+    "branch": null,
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS3035",
+    "time_allowed": "2 Hours",
+    "full_marks": 50,
+    "instructions": [
+      "Roll No.",
+      "Registration No.",
+      "Name",
+      "Date of Exam"
+    ],
+    "sections": [
+      {
+        "section_name": "SECTION-A",
+        "instructions": "Answer All Questions",
+        "time_allowed": "30 Minutes",
+        "marks": 14,
+        "questions": [
+          {
+            "question_number": "Q.No:1",
+            "text": "In ML trade-off between over- fitting and under- fitting is always done to get optimal fit models. In the context of polynomial regression this trade off is affected by some structural assumption of regression. Which one of the following can most affect the trade-off in polynomial regression?",
+            "options": {
+              "a": "The polynomial degree",
+              "b": "Whether we learn the weights by matrix inversion or gradient descent",
+              "c": "The assumed variance of the Gaussian noise",
+              "d": "The use of a constant-term unit input"
+            }
+          },
+          {
+            "question_number": "Q.No:2",
+            "text": "Splitting in Decision Tree aim to decrease the model complexity",
+            "options": {
+              "a": "TRUE",
+              "b": "FALSE"
+            }
+          },
+          {
+            "question_number": "Q.No:3",
+            "text": "For two Boolean random variables, X and Y, if P(X) = %, P(Y) = 1/3, and P(X | ~Y) = %, what is P(X | Y)?",
+            "options": {
+              "a": "1/6",
+              "b": "%",
+              "c": "%",
+              "d": "1"
+            }
+          },
+          {
+            "question_number": "Q.No:4",
+            "text": "“R squared “is used to measure the goodness-fit of a linear regression. What from the following is true if a new feature is added and the model is retained as before?",
+            "options": {
+              "a": "If R squared increases this feature is significant",
+              "b": "If R squared decreases this feature is not significant",
+              "c": "R squared cannot give any idea about the significance of the feature",
+              "d": "None of the above"
+            }
+          },
+          {
+            "question_number": "Q.No:5",
+            "text": "Which of the following will be true about k in k-NN in terms of Bias?",
+            "options": {
+              "a": "When you increase the k the bias will be increases.",
+              "b": "When you decrease the k the bias will be increases.",
+              "c": "Can’t say.",
+              "d": "None of these."
+            }
+          },
+          {
+            "question_number": "Q.No:6",
+            "text": "The Principal Components obtained are Linear Combination of the Original Features",
+            "options": {
+              "a": "TRUE",
+              "b": "FALSE"
+            }
+          },
+          {
+            "question_number": "Q.No:7",
+            "text": "Which one from the followings can be adopted to overcome the overfitting of weights in Neural Network training",
+            "options": {
+              "a": "Adding a bias term",
+              "b": "Adding a Regularization term",
+              "c": "Taking more hidden layers",
+              "d": "None of the above"
+            }
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-B",
+        "instructions": "Answer Any Three Questions.",
+        "time_allowed": "1 Hour and 30 Minutes",
+        "marks": 36,
+        "questions": [
+          {
+            "question_number": "8",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What are the different forms of learning? Give one example of each form that brings out the basic characteristic of that learning.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "What is generalization performance? Why it is a fundamental problem in Inductive learning? Derive mathematical equations for true risk function and empirical risk function.",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "9",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What are the issues in K-means algorithm? Discuss.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Identify the first splitting attribute for decision tree by using ID3 algorithm with the following dataset. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "10",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What is Soft Margin Hyperplane in SVM? Explain.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Find out the hyperplane equation for the following data and identify whether it is a Soft Margin Hyperplane or Hard Margin Hyperplane. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "11",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Design a two-layer network of perceptron to implement NAND gates. Assume your own weights and biases in the range [-0.5, 0.5].Use learning rate a=0.4",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "What is Delta rule? In which case this is not suitable? Derive Back propagation algorithm for a NN having 4 inputs, 1 hidden layer having three neurons and output layer having two neurons. You may ignore the bias term. Sigmoid is used as the activation function in the network.",
+                "marks": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "exam_id": "2022_02_ENDSEM_Set_3",
+    "exam_type": "ENDSEM",
+    "year": 2022,
+    "semester": "6th",
+    "programme": "B.Tech",
+    "branch": null,
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS3035",
+    "time_allowed": "2 Hours",
+    "full_marks": 50,
+    "instructions": [
+      "Roll No.",
+      "Registration No.",
+      "Name",
+      "Date of Exam"
+    ],
+    "sections": [
+      {
+        "section_name": "SECTION-A",
+        "instructions": "Answer All Questions",
+        "time_allowed": "30 Minutes",
+        "marks": 14,
+        "questions": [
+          {
+            "question_number": "Q.No:1",
+            "text": "In ML trade-off between over- fitting and under- fitting is always done to get optimal fit models. In the context of Gaussian Bayes classifier this trade off is affected by some structural assumption of Gaussian Bayes classifier. Which one of the following can most affect the trade-off in polynomial regression.",
+            "options": {
+              "a": "Whether we learn the class centers by Maximum Likelihood or Gradient Descent",
+              "b": "Whether we assume full class covariance matrices or diagonal class covariance matrices",
+              "c": "Whether we have equal class priors or priors estimated from the data.",
+              "d": "Whether we allow classes to have different mean vectors or we force them to share the same mean vector"
+            }
+          },
+          {
+            "question_number": "Q.No:2",
+            "text": "Splitting in Decision Tree aim to reduce the variance in the Decision Tree Model",
+            "options": {
+              "a": "TRUE",
+              "b": "FALSE"
+            }
+          },
+          {
+            "question_number": "Q.No:3",
+            "text": "We know that Classification is a special case of regression. So, in this context is it correct to say that logistic regression is also a class of linear regression.",
+            "options": {
+              "a": "TRUE",
+              "b": "FALSE",
+              "c": "Insufficient data to answer this question"
+            }
+          },
+          {
+            "question_number": "Q.No:4",
+            "text": "One ML engineer has developed a polynomial regression with degree 4 which is perfect fit to the data. Now he has following situations: i. Simple Linear regression will have high bias and low variance ii. Simple Linear regression will low high bias and high variance iii. Polynomial regression with degree 4 will have low bias and high variance iv. Polynomial regression with degree 4 will have low bias and low variance Which of the following options will be true?",
+            "options": {
+              "a": "Only i",
+              "b": "i and iii",
+              "c": "i and iv",
+              "d": "ii and iv"
+            }
+          },
+          {
+            "question_number": "Q.No:5",
+            "text": "Which of the following statement is true about k-NN algorithm? (i) k-NN performs much better if all of the data have the same scale (ii) k-NN works well with a small number of input variables (p), but struggles when the number of inputs is very large (iii) k-NN makes no assumptions about the functional form of the problem being solved",
+            "options": {
+              "a": "(i) and (ii)",
+              "b": "(i) and (iii)",
+              "c": "Only (i)",
+              "d": "All of the above"
+            }
+          },
+          {
+            "question_number": "Q.No:6",
+            "text": "PCA is a feature elimination method",
+            "options": {
+              "a": "TRUE",
+              "b": "FALSE"
+            }
+          },
+          {
+            "question_number": "Q.No:7",
+            "text": "A function is said to be a kernel function if",
+            "options": {
+              "a": "The functions is continuous and symmetric",
+              "b": "The function is positive semi- definite",
+              "c": "The function has only non-negative Eigen values",
+              "d": "All of these"
+            }
+          }
+        ]
+      },
+      {
+        "section_name": "SECTION-B",
+        "instructions": "Answer Any Three Questions.",
+        "time_allowed": "1 Hour and 30 Minutes",
+        "marks": 36,
+        "questions": [
+          {
+            "question_number": "8",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Distinguish among Supervised, Unsupervised and Semi-Supervised learning with one example of application each. How Reinforcement learning is different from others?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "What is inductive learning? How it is different from deductive learning? Derive mathematical equations for true risk function and empirical risk function.",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "9",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "What is curse of dimensionality? How do we handle this?",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Identify the first splitting attribute for decision tree by using ID3 algorithm with the following dataset. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "10",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "Define support vectors and slack variables in support vector machine (SVM). What is the need of slack variables.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Find out the hyperplane equation for the following data. Identify the existence of support vectors and slack variables (if any) in the given data. (Dataset provided)",
+                "marks": 8
+              }
+            ]
+          },
+          {
+            "question_number": "11",
+            "sub_questions": [
+              {
+                "label": "a",
+                "text": "To achieve good generalization performance, we require bias and variance to be low at the same time. Illustrate through an example bias-variance trade-off for regression.",
+                "marks": 4
+              },
+              {
+                "label": "b",
+                "text": "Design a two layer NN to implement XOR having three inputs. Derive the weight updating algorithm for this network. Use suitable activation function and bias terms.",
+                "marks": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "university": "KIIT-DU",
+    "year": "2023",
+    "exam_type": "Autumn End Semester Examination",
+    "semester": "5th",
+    "programme": "B.Tech (DE-ID)",
+    "branch": "CSSE",
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS 3035",
+    "duration": "3 Hours",
+    "full_marks": 50,
+    "instructions": {
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "compulsory_section": "Section A",
+      "total_questions_to_answer": "Answer any SIX questions.",
+      "questions_per_section_constraint": "Attempt minimum one question each from Sections B, C, D.",
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": "Qn. Set Code-1"
+  },
+  {
+    "university": "KIIT-DU",
+    "year": "2023",
+    "exam_type": "Spring End Semester Examination",
+    "semester": "6th",
+    "programme": "B.Tech",
+    "branch": "CSE, IT, CSCE",
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS 3035",
+    "duration": "3 Hours",
+    "full_marks": 50,
+    "instructions": {
+      "sections": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "compulsory_section": "Section A",
+      "total_questions_to_answer": "Answer any SIX questions.",
+      "questions_per_section_constraint": "Attempt minimum one question each from Sections B, C, D.",
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": "Qn. Set Code-1"
+  },
+  {
+    "university": "KIIT-DU",
+    "year": "2024",
+    "exam_type": "Autumn End Semester Examination",
+    "semester": "5th",
+    "programme": "B.Tech",
+    "branch": "CSSE",
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS31002",
+    "duration": "2 Hours 30 Minutes",
+    "full_marks": 50,
+    "instructions": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "compulsory_section": "Section A",
+      "total_questions_to_answer": "Answer any FIVE questions.",
+      "questions_per_section_constraint": "Attempt any Four question from Sections B.",
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": "Qn. Set Code-7"
+  },
+  {
+    "university": "KIIT-DU",
+    "year": "2024",
+    "exam_type": "Spring End Semester Examination",
+    "semester": "6th",
+    "programme": "B.Tech",
+    "branch": "CSE, IT, CSCE",
+    "subject_name": "MACHINE LEARNING",
+    "subject_code": "CS 3035",
+    "duration": "2 Hours 30 Minutes",
+    "full_marks": 50,
+    "instructions": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "compulsory_section": "Section A",
+      "total_questions_to_answer": "Answer any FIVE questions.",
+      "questions_per_section_constraint": "Attempt any Four question from Sections B.",
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": "Qn. Set Code-7 (SOT)"
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology, Deemed to be University",
+    "year": "2022",
+    "exam_type": "Autumn Mid Semester Examination",
+    "semester": null,
+    "programme": null,
+    "branch": null,
+    "subject_name": "Machine Learning",
+    "subject_code": "CS 3035",
+    "duration": "1 1/2 Hours",
+    "full_marks": 20,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "Q.No.1",
+      "total_questions_to_answer": "Answer any four Questions including Q.No.1 which is Compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology, Deemed to be University",
+    "year": "2023",
+    "exam_type": "Spring Mid Semester Examination",
+    "semester": "6th",
+    "programme": null,
+    "branch": null,
+    "subject_name": "Machine Learning",
+    "subject_code": "CS 3035",
+    "duration": "1 1/2 Hours",
+    "full_marks": 20,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "Q.No.1",
+      "total_questions_to_answer": "Answer any four Questions including Q.No.1 which is Compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology, Deemed to be University",
+    "year": "2023",
+    "exam_type": "Autumn Mid Semester Examination",
+    "semester": "5th",
+    "programme": null,
+    "branch": "SE",
+    "subject_name": "ML",
+    "subject_code": "CS3035",
+    "duration": "1 1/2 Hours",
+    "full_marks": 40,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "Question No. I",
+      "total_questions_to_answer": "Answer any four Questions including Question No. I which is compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology, Deemed to be University",
+    "year": "2024",
+    "exam_type": "Autumn Mid Semester Examination",
+    "semester": "5th",
+    "programme": null,
+    "branch": "CSSE",
+    "subject_name": "Machine Learning",
+    "subject_code": "CS 31002",
+    "duration": "1 1/2 Hours",
+    "full_marks": 20,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "question No.1",
+      "total_questions_to_answer": "Answer Any four questions including question No.1 which is compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  },
+  {
+    "university": "Kalinga Institute of Industrial Technology, Deemed to be University",
+    "year": "2024",
+    "exam_type": "Spring Mid Semester Examination",
+    "semester": "6th",
+    "programme": null,
+    "branch": null,
+    "subject_name": "Machine Learning",
+    "subject_code": "CS 3035",
+    "duration": "1 1/2 Hours",
+    "full_marks": 20,
+    "instructions": {
+      "sections": [],
+      "compulsory_section": "question No.1",
+      "total_questions_to_answer": "Answer Any four questions including question No.1 which is compulsory.",
+      "questions_per_section_constraint": null,
+      "other_instructions": [
+        "The figures in the margin indicate full marks.",
+        "Candidates are required to give their answers in their own words as far as practicable and all parts of a question should be answered at one place only."
+      ]
+    },
+    "question_paper_code": null
+  }
+]

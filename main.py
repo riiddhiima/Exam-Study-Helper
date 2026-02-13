@@ -7,7 +7,7 @@
 
 # # === Prompt Template ===
 # template = """
-# You are a helpful assistant named Maestro. You are assigned as an exam prep helper bot.
+# You are a helpful assistant named Exam Study Helper. You are assigned as an exam prep helper bot.
 # You will be given a question from a particular subject from KIIT University's semester syllabus.
 # Your task is to either solve it, generate similar questions, or prepare exam sets with marks distribution & course outcomes based on the knowledge base.
 
@@ -105,7 +105,7 @@ subjects = ["AI", "ML", "CC", "UHV"]
 model = OllamaLLM(model="llama3.2")
 
 prompt = PromptTemplate.from_template("""
-You are a helpful assistant named Maestro. You are trained on KIIT University exam papers.
+You are a helpful assistant named Exam Study Helper. You are trained on KIIT University exam papers.
 Use the provided past exam context to answer clearly and precisely.
 If the question is irrelevant to exam preparation, respond with: "I cannot help with that."
 
@@ -185,3 +185,4 @@ while True:
 
         result = chain.invoke({"exam_paper": exam_paper, "question": question})
         print(f"\n🧠 Answer:\n{result}\n")
+
